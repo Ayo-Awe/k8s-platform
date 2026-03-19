@@ -9,4 +9,4 @@ imagePullSecrets:
 # Demo app consumes the normalized app secret contract in its own namespace.
 # Addons Terraform seeds `database-credentials`, and ESO can keep it in sync later.
 databaseSecret:
-  enabled: false
+  enabled: true
