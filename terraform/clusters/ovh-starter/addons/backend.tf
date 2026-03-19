@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket                      = "k8s-starter-state-6426680645"
+    bucket                      = "k8s-starter-test"
     key                         = "k8s-platform/clusters/ovh-starter/addons.tfstate"
     region                      = "gra"
     encrypt                     = true
