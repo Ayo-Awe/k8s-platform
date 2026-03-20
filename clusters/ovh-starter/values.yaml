@@ -15,7 +15,7 @@ clusterIssuer: "letsencrypt-production"
 components:
   demoApp: true
   # Data layer — uncomment to enable (requires object storage):
-  # cnpg: true
+  cnpg: true
 
 #
 # `demoApp` is on here so a fresh bootstrap exercises ingress, TLS, and app
